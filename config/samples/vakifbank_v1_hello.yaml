@@ -1,0 +1,12 @@
+apiVersion: vakifbank.v7k/v1
+kind: Hello
+metadata:
+  labels:
+    app.kubernetes.io/name: hello
+    app.kubernetes.io/instance: hello-sample
+    app.kubernetes.io/part-of: operator-example1
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: operator-example1
+  name: hello-sample
+spec:
+  # TODO(user): Add fields here
